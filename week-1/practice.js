@@ -122,3 +122,12 @@ function greet() {
 setTimeout(greet, 3 * 1000)
 
 setInterval(greet, 1 * 1000)
+
+// Class: template for creating object
+class Animal {
+  constructor(name, legCount, speaks) {
+    this.name = name
+    this.legCount = legCount
+    this.speaks = speaks
+  }
+}
